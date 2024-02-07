@@ -19,6 +19,7 @@ const App = () => {
       .catch((err) => {
         console.log(err);
       })
+      setWord (''); //to remove search word when press submit
   }
   
   return (
