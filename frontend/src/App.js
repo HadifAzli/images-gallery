@@ -6,7 +6,7 @@ import ImageCard from './components/ImageCard';
 import Welcome from './components/Welcome';
 import { Container, Row, Col } from 'react-bootstrap';
 
-const UNSPLASH_KEY = process.env.REACT_APP_UNSPLASH_KEY;
+const UNSPLASH_KEY = 'zydrI6TkqwhhRpYUgyiMWr5oU_TmGj6EB6izauDoEuw';
 
 const App = () => {
   const [word, setWord] = useState('');
